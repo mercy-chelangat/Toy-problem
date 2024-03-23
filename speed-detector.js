@@ -15,8 +15,7 @@ if(speed < speedLimit){
 
     if(demeritPoints > demeritPointThreshold) {
         console.log("Licences Suspended");
-    } else{
-        console.log("Points:" + demeritPoints);
+    } else{        console.log("Points:" + demeritPoints);
     }
 }
 
